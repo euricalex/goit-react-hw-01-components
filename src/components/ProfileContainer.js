@@ -1,4 +1,4 @@
-import { Container, Description, Avatar, Tag, Location, StatsList, StatItem, StatLabel } from "./Profilestyle/Profilestyle";
+import { Container, Description, Avatar, Tag, Location, StatsList, StatItem, StatLabel } from "./componentstyle/Profilestyle";
 
 export const ProfileContainer = props => {
     // console.log(props.items); // Цей рядок виводить елементи props в консоль (для налагодження).
