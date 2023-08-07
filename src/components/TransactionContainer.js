@@ -1,7 +1,6 @@
 import { Table, TableCell, TableHeader, TableRow, Thead  } from "./componentstyle/TransactionStyle";
 
 export const TransactionContainer  = props => {
-    console.log(props.items)
 return (
 
 <Table>
