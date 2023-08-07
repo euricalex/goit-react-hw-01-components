@@ -1,7 +1,7 @@
 import { StatisticHeader, StatisticItem, StatisticList, StatisticSection } from "./componentstyle/Statisticstyle";
 const colors = ['blue', 'purple', 'red', 'green', 'brown']
 export const StatisticContainer = props => {
-console.log(props.data)
+
 return (
   <StatisticSection>
   <StatisticHeader>Upload stats</StatisticHeader>
