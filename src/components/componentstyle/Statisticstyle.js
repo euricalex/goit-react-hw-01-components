@@ -23,7 +23,9 @@ export const StatisticList = styled.ul`
 `;
 export const StatisticItem = styled.li`
 
-color: #333333;
+color: #fff;
+font-size: 16px;
+font-weight: 600;
 display: flex;
 flex-direction: column;
 align-items: center;

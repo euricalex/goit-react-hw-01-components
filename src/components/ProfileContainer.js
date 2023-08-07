@@ -11,10 +11,10 @@ export const ProfileContainer = props => {
                 <Description>{item.username}</Description>
                 <Tag>@{item.tag}</Tag>
                 <Location>{item.location}</Location>
-                <StatsList>
-                    <StatItem key={item.id}>Followers<StatLabel>{item.stats.followers}</StatLabel></StatItem>
-                    <StatItem key={item.id}>Views<StatLabel>{item.stats.views}</StatLabel></StatItem>
-                    <StatItem key={item.id}>Likes<StatLabel>{item.stats.likes}</StatLabel></StatItem>
+                <StatsList key = {item.id}>
+                    <StatItem>Followers<StatLabel>{item.stats.followers}</StatLabel></StatItem>
+                    <StatItem>Views<StatLabel>{item.stats.views}</StatLabel></StatItem>
+                    <StatItem>Likes<StatLabel>{item.stats.likes}</StatLabel></StatItem>
                 </StatsList>
                 </>
             ))}

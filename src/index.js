@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { Profile } from 'components/Profile';
 import { Statistic } from 'components/Statistic';
 import { Friend } from 'components/Friend';
+import { TransactionHistory } from "./components/TransactionHistory";
 
 
 
@@ -11,6 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
    <Profile/>
    <Statistic/>
    <Friend/>
+   <TransactionHistory/>
   </React.StrictMode>
 
 );
