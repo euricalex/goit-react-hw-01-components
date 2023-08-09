@@ -1,4 +1,4 @@
-import { StatusCircle, FriendList, FriendListItem, FriendName} from "./componentstyle/FriendStyle";
+import { StatusCircle, FriendList, FriendListItem, FriendName} from "./FriendStyle";
 export const FriendContainer = props => {
    return (
     <FriendList>

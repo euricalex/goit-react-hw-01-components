@@ -1,10 +1,10 @@
 import { ProfileContainer } from "./ProfileContainer";
-import  profileContent from "../user.json";
+import  user from "../data/user.json";
 import { GlobalStyle } from "./GlobalStyle";
 
 export const Profile = () => {
     return <div>
-        <ProfileContainer items={profileContent}/>
+        <ProfileContainer users={user}/>
         <GlobalStyle/>
     </div>
 }

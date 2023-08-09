@@ -1,6 +1,6 @@
 import { FriendContainer } from "./FriendContainer";
-import friendContent from "../friends.json";
-import { GlobalStyle } from "./GlobalStyle";
+import friendContent from "../data/friends.json";
+import { GlobalStyle } from "../Profile/GlobalStyle";
 
 export const Friend = () => {
     return <div>

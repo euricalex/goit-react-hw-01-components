@@ -1,6 +1,6 @@
-import { GlobalStyle } from "./GlobalStyle";
+import { GlobalStyle } from "../Profile/GlobalStyle";
 import {TransactionContainer} from "./TransactionContainer";
-import transactionData from "../transactions.json";
+import transactionData from "../data/transactions.json";
 
 export const TransactionHistory = () => {
     return <div>

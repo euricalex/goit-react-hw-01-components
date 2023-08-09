@@ -1,4 +1,4 @@
-import { Table, TableCell, TableHeader, TableRow, Thead  } from "./componentstyle/TransactionStyle";
+import { Table, TableCell, TableHeader, TableRow, Thead  } from "./TransactionStyle";
 
 export const TransactionContainer  = props => {
 return (

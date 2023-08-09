@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Profile } from 'components/Profile';
-import { Statistic } from 'components/Statistic';
-import { Friend } from 'components/Friend';
-import { TransactionHistory } from "./components/TransactionHistory";
+import { Profile } from 'components/Profile/Profile';
+import { Statistic } from 'components/Statistic/Statistic';
+import { Friend } from 'components/Friend/Friend';
+import { TransactionHistory } from "./components/Transaction/TransactionHistory";
 
 
 
